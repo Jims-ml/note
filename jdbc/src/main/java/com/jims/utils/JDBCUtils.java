@@ -7,13 +7,13 @@ import java.sql.*;
 import java.util.Properties;
 
 /**
- * jdbc工具类
+ * jdbc工具类(没有连接池)
  * @author JIMS
  * @create 2020-01-29-16:17
  */
 public class JDBCUtils {
     private static String url;
-    private static String user;
+    private static String username;
     private static String password;
     //private static String driver;
 
@@ -29,7 +29,7 @@ public class JDBCUtils {
             pro.load(new FileReader(path));
             //3获取数据，赋值
             url = pro.getProperty("url");
-            user = pro.getProperty("user");
+            username = pro.getProperty("username");
             password = pro.getProperty("password");
             //driver = pro.getProperty("driver");
             //4注册驱动
@@ -41,7 +41,7 @@ public class JDBCUtils {
 
     //获取连接
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(url,user,password);
+        return DriverManager.getConnection(url,username,password);
     }
 
     //关闭连接

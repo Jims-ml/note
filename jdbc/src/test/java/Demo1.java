@@ -1,4 +1,5 @@
 import com.jims.utils.JDBCUtils;
+import org.junit.Test;
 
 import java.sql.*;
 import java.util.Scanner;
@@ -8,7 +9,9 @@ import java.util.Scanner;
  * @create 2020-01-29-16:38
  */
 public class Demo1 {
-    public static void main(String[] args) {
+
+    @Test
+    public void test1() {
         //1键盘录入
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入用户名：");
@@ -48,8 +51,6 @@ public class Demo1 {
             rs = pstmt.executeQuery();
 
             return rs.next();
-
-
 
         } catch (SQLException e) {
             e.printStackTrace();
