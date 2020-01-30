@@ -1,5 +1,7 @@
-import com.jims.utils.JDBCUtils;
-import org.junit.Test;
+package com.jims.jdbc.demo;
+
+import com.jims.jdbc.utils.JDBCUtils;
+import org.junit.jupiter.api.Test;
 
 import java.sql.*;
 import java.util.Scanner;

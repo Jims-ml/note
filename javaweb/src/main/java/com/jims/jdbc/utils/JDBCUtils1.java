@@ -1,4 +1,4 @@
-package com.jims.utils;
+package com.jims.jdbc.utils;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 

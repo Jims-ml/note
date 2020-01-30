@@ -1,4 +1,4 @@
-package com.jims.entity;
+package com.jims.jdbc.entity;
 
 /**
  * @author JIMS

@@ -1,4 +1,4 @@
-package com.jims.utils;
+package com.jims.jdbc.utils;
 
 import java.io.FileReader;
 import java.io.IOException;
