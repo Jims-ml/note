@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  */
 public class Demo2 {
 
-    //volatile 值发生了变更，该线程会把实例化对象写入主内存，其他线程立马可见，避免出现脏读的现象
+    //volatile 值发生了变更，其他线程立马可见，避免出现脏读的现象
     private static volatile Demo2 demo2 = null;
 
     private Demo2() {

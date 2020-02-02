@@ -35,8 +35,4 @@ class Test1 {
 //        Demo1.getInstance();加载类的时候会调用类public修饰的无参构造
         Demo1.getInstance();//创建对象的时候才会调用类中private修饰的无参构造
     }
-
-    public static void main(String[] args) {
-        System.out.println("1111111111");
-    }
 }
