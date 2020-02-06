@@ -1,6 +1,7 @@
 package com.jims.designPattern;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 /**
  *  饿汉式内部类创建单例

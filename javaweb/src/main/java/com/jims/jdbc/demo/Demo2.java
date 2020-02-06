@@ -3,7 +3,7 @@ package com.jims.jdbc.demo;
 import com.jims.jdbc.entity.User;
 import com.jims.jdbc.utils.JDBCUtils1;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
