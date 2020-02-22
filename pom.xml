@@ -11,6 +11,8 @@
     <modules>
         <module>javaweb</module>
         <module>javase</module>
+        <module>ssm</module>
+        <module>mybatis-generator</module>
     </modules>
     <dependencies>
         <dependency>
